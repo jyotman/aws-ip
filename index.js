@@ -6,7 +6,7 @@ const AWS = require('aws-sdk'),
     EC2 = require('aws-sdk/clients/ec2'),
     https = require('https');
 
-AWS.config.loadFromPath('./config.json');
+AWS.config.loadFromPath(process.env.CONFIG);
 const config = require(process.env.CONFIG);
 
 const ec2 = new EC2();
