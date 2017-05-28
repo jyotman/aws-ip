@@ -1,6 +1,6 @@
 {
   "name": "aws-ip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update your IP address to multiple security groups on AWS EC2",
   "main": "index.js",
   "scripts": {
